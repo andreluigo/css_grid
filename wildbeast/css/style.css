@@ -71,6 +71,25 @@ img {
     align-items: center;
 }
 
+
+@media (max-width : 760px) {
+    .header {
+        grid-template-columns: auto;
+    }
+
+    .header nav a {
+        font-size: 1em;
+    }
+
+    .header li + li {
+        margin-left: 10px;
+    }
+
+    .logo {
+        margin-bottom: 20px;
+    }
+
+}
 .logo {
     max-width: 200px;
 }
