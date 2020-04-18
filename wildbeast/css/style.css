@@ -116,6 +116,15 @@ img {
 }
 
 
+.class-imagem1 {
+    grid-row: span 2;
+    align-self: end;
+}
+
+
+.class-imagem2 {
+    align-self: end;
+}
 
 /* Anuncios */
 .anuncios {
