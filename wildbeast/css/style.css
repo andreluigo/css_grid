@@ -126,6 +126,9 @@ img {
     align-self: end;
 }
 
+
+
+
 /* Anuncios */
 .anuncios {
     grid-area: anuncios;
@@ -156,6 +159,31 @@ img {
 }
 
 
+.informacoes p + p {
+    margin-top: 30px;
+}
 
+/* estilos gerais */
 
+p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    letter-spacing: -0.005em;
+    color: rgba(0, 0, 0, 0.7);
+}
 
+/* Titulo */
+.titulo {
+    color: #b07dfb;
+}
+
+.titulo h1 {
+    font-size: 3.75em;
+    line-height: 1;
+    font-weight: 700;
+}
+
+.titulo sapn {
+    font-size:  0.875em;
+    font-style: italic;
+}
